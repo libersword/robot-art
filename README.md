@@ -6,7 +6,7 @@ Thank you for taking the time to review my project submission. Always more to do
 
 This is not deployed and only runs locally.
 
-To run is simple. Install the dependencies by running 'npm install" in your terminal and that will grab the dependencies from the package.json. Then a simple npm start will do the trick. 
+To run is simple. Please fork and clone. Install the dependencies by running 'npm install" in your terminal and that will grab the dependencies from the package.json. Then a simple npm start will do the trick. 
 
 I highly suggest opening the console while running the applications, there are comments for functionality happening that is not reflecting in the end-user experience.
 
@@ -16,7 +16,7 @@ What I was able to do:
 
 1. Login. You can log in with the seeded admin. It creates a session and redirects you to the robot page.
 2. Register. You can successfully register. However you have to login to afterwards to start a under that user.
-3. See all the robots.
+3. See all the robots. Someitmes on first log in it hits your with a 500 server error. Reloading it should work.
 4. Vote! Passes the vote through, deletes the current vote and changes it to the new vote when a new vote is selected. 
 5. Logout.
 
